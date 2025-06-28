@@ -1,3 +1,4 @@
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Award, TrendingUp, Users, Target } from "lucide-react";
 
@@ -129,7 +130,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Niche Experience - sem bolhas decorativas */}
+        {/* Niche Experience */}
         <div className="bg-gradient-to-r from-ye7-blue via-ye7-cyan to-ye7-blue rounded-3xl p-8 text-white text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-ye7-blue/90 via-ye7-cyan/90 to-ye7-blue/90"></div>
           <div className="relative z-10">
@@ -146,6 +147,9 @@ const About = () => {
               ))}
             </div>
           </div>
+          {/* Decorative elements */}
+          <div className="absolute top-4 right-4 w-20 h-20 bg-white/10 rounded-full"></div>
+          <div className="absolute bottom-4 left-4 w-16 h-16 bg-ye7-cyan/30 rounded-full"></div>
         </div>
       </div>
     </section>
