@@ -1,21 +1,7 @@
 
 const VideoSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Video Background */}
-      <div className="absolute inset-0 w-full h-full">
-        <div className="relative w-full h-full">
-          <iframe 
-            src="https://player.vimeo.com/video/1073827193?h=0dc03cf104&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1" 
-            className="absolute top-0 left-0 w-full h-full object-cover"
-            style={{ minWidth: '100%', minHeight: '100%' }}
-            frameBorder="0" 
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" 
-            title="Ye7 Background Video"
-          />
-        </div>
-      </div>
-      
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-ye7-blue via-ye7-blue/95 to-black">
       {/* Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-ye7-blue/80 via-transparent to-ye7-blue/80"></div>
       
