@@ -9,7 +9,7 @@ const About = () => {
       role: "Co-fundador & Especialista em Tráfego",
       experience: "4+ anos no mercado",
       description: "Especialista em tráfego pago com experiência em diversos nichos: E-commerces, negócios locais, imobiliárias, construtoras e muito mais.",
-      image: "/lovable-uploads/e55cccc1-5c15-436f-8a9a-28d07bf12b37.png",
+      image: "/images/e55cccc1-5c15-436f-8a9a-28d07bf12b37.png",
       stats: [
         { label: "Clientes Atendidos", value: "50+" },
         { label: "Investido em Anúncios", value: "R$ 3M+" },
@@ -17,15 +17,15 @@ const About = () => {
       ]
     },
     {
-      name: "Deyvide Antunes",
-      role: "Co-fundador & Especialista em Vendas",
-      experience: "1+ ano no mercado",
-      description: "Especialista em vendas focado em otimização de processos comerciais e conversão de leads em clientes.",
-      image: "/lovable-uploads/aa4b2605-30d9-4bd6-a6ee-dd92e5120a64.png",
+      name: "Marcelo Augusto",
+      role: "Co-fundador & Desenvolvedor full stack",
+      experience: "2+ ano no mercado",
+      description: "Desenvolvedor de aplicativos e sites dinâmicos e responsivos com design moderno.",
+      image: "/images/64FD2B49-AD9E-452B-8DEE-7E6AC539512C.JPG",
       stats: [
-        { label: "Processos Otimizados", value: "30+" },
-        { label: "Taxa de Conversão", value: "85%" },
-        { label: "Vendas Consultivas", value: "200+" }
+        { label: "Sites criados", value: "15+" },
+        { label: "Aplicativos desenvolvidos", value: "5+" },
+        { label: "Anos de Experiência", value: "2+" }
       ]
     }
   ];
@@ -33,7 +33,7 @@ const About = () => {
   const differentials = [
     {
       icon: Users,
-      title: "Atendimento Limitado",
+      title: "Atendimento Exclusivo",
       description: "Trabalhamos com poucos clientes para garantir qualidade máxima e atenção personalizada",
       gradient: "from-ye7-blue to-ye7-cyan"
     },
@@ -65,7 +65,7 @@ const About = () => {
             Conheça quem está por trás da <span className="text-ye7-blue">Ye7</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Uma dupla experiente que combina expertise em tráfego pago e vendas para entregar resultados excepcionais
+            Uma dupla experiente que combina expertise em marketing e desenvolvimento web para entregar resultados excepcionais
           </p>
         </div>
 
@@ -131,8 +131,8 @@ const About = () => {
         </div>
 
         {/* Niche Experience */}
-        <div className="bg-gradient-to-r from-ye7-blue via-ye7-cyan to-ye7-blue rounded-3xl p-8 text-white text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-ye7-blue/90 via-ye7-cyan/90 to-ye7-blue/90"></div>
+        <div className="bg-ye7-blue rounded-3xl p-8 text-white text-center relative overflow-hidden">
+          <div className="absolute inset-0 bg-ye7-blue"></div>
           <div className="relative z-10">
             <h3 className="text-2xl font-bold mb-4">Experiência em Todos os Nichos</h3>
             <p className="text-lg mb-6 max-w-3xl mx-auto opacity-95">
@@ -147,9 +147,6 @@ const About = () => {
               ))}
             </div>
           </div>
-          {/* Decorative elements */}
-          <div className="absolute top-4 right-4 w-20 h-20 bg-white/10 rounded-full"></div>
-          <div className="absolute bottom-4 left-4 w-16 h-16 bg-ye7-cyan/30 rounded-full"></div>
         </div>
       </div>
     </section>

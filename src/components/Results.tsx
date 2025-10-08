@@ -102,9 +102,15 @@ const Results = () => {
             <p className="text-lg mb-6 max-w-2xl mx-auto">
               Junte-se aos mais de 50 clientes que já transformaram seus negócios com nossa metodologia única
             </p>
-            <button className="bg-white text-ye7-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Quero ser o próximo
-            </button>
+            <a
+              href="https://wa.me/5531998127121"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-white text-ye7-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                Quero ser o próximo
+              </button>
+            </a>
           </div>
         </div>
       </div>
