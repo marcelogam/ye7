@@ -3,7 +3,7 @@ import { ArrowRight, Users, Target, TrendingUp } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen pt-20 flex items-center overflow-hidden">      
+    <section className="relative min-h-screen pt-24 pb-4 flex items-center overflow-hidden">
       <video
         autoPlay
         loop
