@@ -18,7 +18,7 @@ const Results = () => {
     },
     {
       icon: TrendingUp,
-      title: "4+",
+      title: "5+",
       subtitle: "Anos de Mercado",
       description: "Experiência sólida em marketing digital"
     },
@@ -28,17 +28,6 @@ const Results = () => {
       subtitle: "Taxa de Satisfação",
       description: "Clientes que renovam nossos contratos"
     }
-  ];
-
-  const sectors = [
-    "E-commerce",
-    "Negócios Locais", 
-    "Imobiliárias",
-    "Construtoras",
-    "Infoprodutos",
-    "Serviços B2B",
-    "Varejo",
-    "Educação"
   ];
 
   return (
@@ -73,24 +62,6 @@ const Results = () => {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        {/* Sectors */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
-            Setores onde já <span className="text-ye7-cyan">geramos resultados</span>
-          </h3>
-          
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
-            {sectors.map((sector, index) => (
-              <div 
-                key={index} 
-                className="text-center p-4 bg-gray-50 rounded-lg hover:bg-ye7-blue/10 transition-colors cursor-default"
-              >
-                <span className="text-sm font-medium text-gray-700">{sector}</span>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* Call to Action */}

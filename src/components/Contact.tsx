@@ -48,8 +48,7 @@ const Contact = () => {
                 Fale com a nossa equipe
               </h3>
               <p className="text-gray-600 mb-8">
-                Estamos prontos para entender o seu negócio e apresentar uma proposta personalizada. 
-                Lembre-se: trabalhamos com atendimento limitado para garantir a qualidade máxima.
+                Estamos prontos para entender o seu negócio e apresentar uma proposta personalizada.
               </p>
             </div>
 

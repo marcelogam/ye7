@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="space-y-4">
               <div className="inline-flex items-center px-4 py-2 bg-white/10 rounded-full text-white text-sm font-medium">
                 <Target className="w-4 h-4 mr-2" />
-                Atendimento Limitado de Clientes
+                Limitamos atendimentos para oferecer excelência.
               </div>
               
               <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
@@ -72,7 +72,7 @@ const Hero = () => {
                 <div className="text-sm text-white">Investidos em Anúncios</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-white">4+</div>
+                <div className="text-2xl font-bold text-white">5+</div>
                 <div className="text-sm text-white">Anos de Experiência</div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Hero = () => {
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <div className="flex items-center space-x-3">
                     <Users className="w-5 h-5 text-ye7-blue" />
-                    <span className="font-medium">Atendimento Limitado</span>
+                    <span className="font-medium">Atendimento Exclusivo</span>
                   </div>
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 </div>

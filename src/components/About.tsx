@@ -7,13 +7,13 @@ const About = () => {
     {
       name: "Marcelo Duarte",
       role: "Co-fundador & Especialista em Tráfego",
-      experience: "4+ anos no mercado",
-      description: "Especialista em tráfego pago com experiência em diversos nichos: E-commerces, negócios locais, imobiliárias, construtoras e muito mais.",
+      experience: "5+ anos no mercado",
+      description: "Especialista em marketing com experiência em diversos nichos: E-commerces, negócios locais, imobiliárias, construtoras e muito mais.",
       image: "/images/e55cccc1-5c15-436f-8a9a-28d07bf12b37.png",
       stats: [
         { label: "Clientes Atendidos", value: "50+" },
         { label: "Investido em Anúncios", value: "R$ 3M+" },
-        { label: "Anos de Experiência", value: "4+" }
+        { label: "Anos de Experiência", value: "5+" }
       ]
     },
     {
@@ -21,7 +21,7 @@ const About = () => {
       role: "Co-fundador & Desenvolvedor full stack",
       experience: "2+ ano no mercado",
       description: "Desenvolvedor de aplicativos e sites dinâmicos e responsivos com design moderno.",
-      image: "/images/64FD2B49-AD9E-452B-8DEE-7E6AC539512C.JPG",
+      image: "/images/imagemPerfilMarceloA.png",
       stats: [
         { label: "Sites criados", value: "15+" },
         { label: "Aplicativos desenvolvidos", value: "5+" },
@@ -62,7 +62,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-ye7-blue to-ye7-cyan bg-clip-text text-transparent mb-4">
-            Conheça quem está por trás da <span className="text-ye7-blue">Ye7</span>
+            Conheça quem está por trás da <span className="text-ye7-blue">ye7</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Uma dupla experiente que combina expertise em marketing e desenvolvimento web para entregar resultados excepcionais
@@ -114,7 +114,7 @@ const About = () => {
         {/* Differentials Section */}
         <div className="mb-16">
           <h3 className="text-2xl lg:text-3xl font-bold text-center mb-12">
-            Por que escolher a <span className="bg-gradient-to-r from-ye7-cyan to-ye7-blue bg-clip-text text-transparent">Ye7</span>?
+            Por que escolher a <span className="bg-gradient-to-r from-ye7-cyan to-ye7-blue bg-clip-text text-transparent">ye7</span>?
           </h3>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
